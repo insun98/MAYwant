@@ -1,0 +1,19 @@
+{
+  "name": "maywant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insun98/MAYwant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insun98/MAYwant/issues"
+  },
+  "homepage": "https://github.com/insun98/MAYwant#readme"
+}
