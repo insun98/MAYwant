@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/insun98/MAYwant/issues"
   },
-  "homepage": "https://github.com/insun98/MAYwant#readme"
+  "homepage": "https://github.com/insun98/MAYwant#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "firebase": "^8.6.5",
+    "mongoose-morgan": "^1.0.17",
+    "mysql": "^2.18.1"
+  }
 }
