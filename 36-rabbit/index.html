@@ -1,205 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Rabbit : Home</title>
-        <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-       
-	<script type="text/javascript" src="./vendor/jquery/checkbox.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-	<link rel="icon" href="assets/images/logo.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <title>MAYwant : Home</title>
+    <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
 <style>
-form{position:absolute;
-left:300px;
-top:200px;
-}
+
 </style>
-    </head>
+<!-- HOME starts here -->
 
-    <body>
+<body>
+    <div id="index">
+        <div class="container main">
+            <div class="row home">
+                <div id="index_left" class="col-md-6 left">
 
-	    <div id="index">                                           <!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left">
-   				 <div>
-        				<label for="Word">Word</label>
-       					 <input type="text" id="word" />
-    				</div>
-    				<div>
-        				<label for="mail">Meaning</label>
-        				<input type="text" id="meaning" />
-    				</div>
+                    <!-- To get the inputs -->
+                    <h3>Date</h3>
+                    <input type="text" size="15" name="a1" id="a1" placeholder="21/11/12" />
+                    <h3>Course</h3>
+                    <input type="text" size="15" name="a2" id="a2" placeholder="Ex)OSS" />
 
-    				<div class="button">
-					<button type="submit" id="insert">Good</button>
-    				</div>
-				</form>                  		
-		    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <img src="assets/images/logo.png">
-                            <h4>I am rabbit </h4>
-                        </div>
-                        <p class="home-description">
-                            Hi, I am Rabbit, Web developer from michigan, US. I am passionate about design, development and interaction. I really love what I do.
-                        </p>
-                        <div class="btn-group-vertical custom_btn animated slideinright">
-                            <div id="about" class="btn btn-rabbit">Test Today</div>
-                            <div id="work" class="btn btn-rabbit">Test All</div>
-                            <div id="contact" class="btn btn-rabbit">Memorize</div>
-                        </div>      
-                        <div class="social">
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
+                    <h3>Concepts</h3>
+                    <input type="text" size="70" name="a3" id="a3" placeholder="Ex)Sorting" />
+
+
+                    <h3>Description</h3>
+                    <textarea type="text" rows="20" cols="70" size="50" name="a4" id="a4">
+
+                        </textarea>
+
+                    <button type="button" onclick="Add()">click</button>
+
+                    <!-- Menu -->
+                </div>
+                <div id="index_right" class="col-md-6 text-center right">
+                    <div class="logo">
+                        <img src="assets/images/logo.png">
+                        <h4>Computer Science & Electric Engineering</h4>
+                    </div>
+                    <p class="home-description">
+                        For CSEE students to learn and memorize the important concepts easily.
+                    </p>
+                    <div class="btn-group-vertical custom_btn animated slideinright">
+                        <div id="about" class="btn btn-rabbit">All</div>
+                        <div id="work" class="btn btn-rabbit">Test</div>
+                        <div id="contact" class="btn btn-rabbit">Time Table</div>
+                    </div>
+                    <div class="social">
+                        <a href="https://hisnet.handong.edu/">Hisnet</a>
+                        <a href="https://csee.handong.edu/">CSEE</a>
+                        <a href="https://www.handong.edu/">HANDONG</a>
                     </div>
                 </div>
-
-                
             </div>
-        </div>                                                      <!-- index ends here -->
-
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="about_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/about.jpg">
-                    </div>
-
-                    <div class="col-md-6 right" id="about_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>About</h2>
-                            <div class="marker">a</div>
-                        </div>
-                        <p class='subtitle'>Hi, I am chris Howard. A freelance web designer, front-end developer and digital planner based in US.
-                        </p>
-                        <p class="info">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>  
-                    </div>
-                </div>
-            </div>            
-        </div>                                                                <!-- About ends here -->
 
 
-        
-        <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6" id="work_left">
-                        <div id="owl-demo" class="owl-carousel owl-theme">
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/work.jpg"></div>
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/home.jpg"></div>
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/contact.jpg"></div>
-                        </div>
-                    </div>
+        </div>
+    </div> <!-- home ends here -->
+    <!-- All menu strats here  -->
+    <div id="about_scroll" class="pages ">
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6 left" id="about_left">
+                    <form>
+                        <!-- To get the input -->
+                        <form>
+                            <h3>Date</h3>
+                            <input type="text" size="15" name="a1" id="a1" placeholder="21/02/22" />
+                            <h3>Course</h3>
+                            <input type="text" size="15" name="a2" id="a2" placeholder="Ex)OSS" />
 
-                    <div class="col-md-6" id="work_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Work</h2>
-                            <div class="marker">w</div>
-                        </div>
-                        <p class='subtitle'>This is a selection of my web design and development work. I've been involve in many different types of project.
-                        </p>
-                        <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                    </div>
-                </div>
-            </div>    
-        </div>                                                                 <!-- Work ends here  -->
+                            <h3>Concepts</h3>
+                            <input type="text" size="70" name="a3" id="a3" placeholder="Ex)Linux Command" />
 
 
-        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="contact_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/contact.jpg">
-                    </div>
+                            <h3>Description</h3>
+                            <textarea type="text" rows="20" cols="70" size="50" name="a4" id="a4">
 
-                    <div class="col-md-6 right" id="contact_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Contact</h2>
-                            <div class="marker">c</div>
-                        </div>
-                        <p class='subtitle'>I'm based in cheltenham in the UK, not far from Bristol, Birmingham, Oxford and Swindom. Drop me a line.
-                        </p>
-                        <!-- form -->
-                        <form class="form_edit"> 
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-                            </div>
+                        </textarea>
 
-                            <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            </div>
+                            <button type="button" onclick="Add()">click</button>
 
-                            <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
+
                         </form>
+                    </form>
+                </div>
+                <!-- Table strats here  -->
+                <div class="col-md-6 right" id="about_right">
+                    <a href="#index" class="btn btn-rabbit back"> <i aria-hidden="true"></i> Back to home </a>
+                    <div id="watermark">
+                        <h2 class="page-title" text-center>All Concepts</h2>
+                        <div class="marker">a</div>
+                    </div>
+                    <table id="insertTable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Course</th>
+                                <th>Concepts</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>21/03/06</th>
+                                <td>OSS</td>
+                                <td>[Command]-ls</td>
+                                <td>The ls command (short for list) will show a directory-listing.</td>
+                            </tr>
+                            <tr>
+                                <th>21/05/06</th>
+                                <td>OSS</td>
+                                <td>Open Source</td>
+                                <td>Denoting software for which the original source code is made freely available and
+                                    may be redistributed and modified.</td>
+                            </tr>
+                            <tr>
+                                <th>21/06/06</th>
+                                <td>Data Structure</td>
+                                <td>Sorting</td>
+                                <td>Insertion Sort, Selection Sort</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div> <!-- All ends here -->
+
+
+    <!-- Test starts here -->
+    <div id="work_scroll" class="pages">
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6" id="work_left">
+                    <a href="#about_scroll" class="btn btn-rabbit back"> <i aria-hidden="true"></i> MemorizeAgain </a>
+                    <div id="watermark">
+                        <h2 class="page-title" text-center>Test</h2>
+                        <div class="marker">T</div><br><br><br><br>
+
+                    </div>
+                    <button type="button" class="btn btn-warning" onclick="myFucntion()">Test Now!</button>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6" id="work_right">
+                <a href="#index" class="btn btn-rabbit back"> <i aria-hidden="true"></i> Back to Home </a>
+                <div id="watermark">
+                    <h2 class="page-title" text-center>Answer</h2>
+                    <div class="marker">A</div><br><br><br><br>
+
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>
+                        <p id="check"></p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> <!-- Test ends here  -->
+
+
+    <div id="contact_scroll" class="pages">
+        <!-- Schedule starts here -->
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6 left" id="contact_left">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=21900349%40handong.edu&ctz=Asia%2FSeoul"
+                        style="border: 0" width="520" height="750" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="col-md-6 right" id="contact_right">
+                    <a href="#index" class="btn btn-rabbit back"> <i aria-hidden="true"></i> Back to Home </a>
+                    <div id="watermark">
+                        <h2 class="page-title" text-center>Time Table</h2>
+                        <div class="marker">T</div>
+                    </div>
+                    <br><br>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thurs</th>
+                                <th>Fri</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td></td>
+                                <td>물리학실험</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Algorithms</td>
+                                <td>물리학실험</td>
+                                <td></td>
+                                <td>Algorithms</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>OSS</td>
+                                <td></td>
+                                <td>OSS</td>
+                                <td>OSS</td>
+                                <td>Logic Design</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>OS</td>
+                                <td>AI</td>
+                                <td>Chapel</td>
+                                <td>OS</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>DS</td>
+                                <td>AI</td>
+                                <td>TEAM</td>
+                                <td>DS</td>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center">
+            <div class="container bottom">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Made with <i class="fa fa-heartbeat" aria-hidden="true"></i> by <a
+                                href="https://themewagon.com/">Themewagon</a></p>
                     </div>
                 </div>
             </div>
-       
-            <footer class="text-center">
-                <div class="container bottom">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p>Made with <i class="fa fa-heartbeat" aria-hidden="true"></i> by <a href="https://themewagon.com/">Themewagon</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            
-        </div>                                                              <!-- Contact ends here -->
-        
-    
-    
-    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script> 
-	<script id="MainScript">
-    var firebaseConfig = {
-    apiKey: "AIzaSyAy3uSRzvcW2BSPv9RmrXQuFbrIRxPmILU",
-    authDomain: "maywant-8eb0f.firebaseapp.com",
-    projectId: "maywant-8eb0f",
-    storageBucket: "maywant-8eb0f.appspot.com",
-    messagingSenderId: "804434232790",
-    appId: "1:804434232790:web:d69f580d57df6f2e8d5077",
-    measurementId: "G-DGG7P35E00"
-  };  // Initialize Firebase
-   firebase.initializeApp(firebaseConfig);
-	var wordV, meaningV;
-	function Ready(){
-		wordV=document.getElementById('word').value;
-		meaning=document.getElementById('meaning').value;
-		 
-	}
-	
-	document.getElementById('insert').onclick=function(){
-		Ready();
-		firebase.database().ref('word/'+wordV).set({
-			Meaning:meaningV;
-		});
-	}
+        </footer>
+
+    </div> <!-- Shedule ends here -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function myFucntion() {
+            var kingName = prompt("Open Source", "");
+            if (kingName == "Denoting software for which the original source code is made freely available and may be redistributed and modified.") document.getElementById("check").innerHTML = "Good Job!";
+            else document.getElementById("check").innerHTML = "Wrong Anwer. Try again!";
+        }
+    </script>
+    <script>
+        function input_Text() {
+            document.getElementById("change").value = document.getElementById("Concepts").value;
+        }
+    </script>
+    <script>
+        function Add() {
+            var table1 = document.getElementById("insertTable");
+
+            var tr = document.createElement("tr");
+            tr.setAttribute("bgColor", "white");
+            tr.setAttribute("height", "30");
+
+            var td1 = document.createElement("td");
+            td1.setAttribute("width", "200");
+            const name3 = document.getElementById("a1").value;
+            td1.innerText = name3
+
+            var td2 = document.createElement("td");
+            td2.setAttribute("width", "80");
+            const name2 = document.getElementById("a2").value;
+            td2.innerText = name2
+
+            var td3 = document.createElement("td");
+            td3.setAttribute("width", "100");
+            const name1 = document.getElementById("a3").value;
+            td3.innerText = name1
 
 
+            var td4 = document.createElement("td");
+            td4.setAttribute("width", "200");
+            const name = document.getElementById("a4").value;
+            td4.innerText = name
 
-</script>
-    </body>
+
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tr.appendChild(td4);
+            table1.appendChild(tr);
+
+        }
+
+
+    </script>
+</body>
+
 </html>
