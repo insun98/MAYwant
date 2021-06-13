@@ -18,22 +18,23 @@ Also, it helps them to test themselves how well they have learned. Lastly, it he
 
 ### 4. Contributions
   - Used the project, https://github.com/learning-zone/website-templates (36-rabbits)
-    #### <Changed the logo>
+  - Changes
+    #### 1. Changed the logo
    <img width="500" alt="스크린샷 2021-06-13 오후 7 47 58" src="https://user-images.githubusercontent.com/70529293/121804221-4460b200-cc80-11eb-9bfe-e66c491a18a2.png">   <br>
   <img width="500" alt="스크린샷 2021-06-13 오후 7 48 17" src="https://user-images.githubusercontent.com/70529293/121804235-4fb3dd80-cc80-11eb-8337-944407442d73.png">
 
 
-  #### <Put new table and form>
+  #### 2. Put new table and form
   <img width="500" alt="스크린샷 2021-06-13 오후 7 48 50" src="https://user-images.githubusercontent.com/70529293/121804255-635f4400-cc80-11eb-813f-dcacc2ea8752.png">
 
-  #### <Put test system>
+  #### 3. Put test system
   <img width="500" alt="스크린샷 2021-06-13 오후 7 49 13" src="https://user-images.githubusercontent.com/70529293/121804263-7114c980-cc80-11eb-8b2c-30209cd801be.png">
   <img width="500" alt="스크린샷 2021-06-13 오후 7 49 29" src="https://user-images.githubusercontent.com/70529293/121804270-796d0480-cc80-11eb-842b-19e67511cbbd.png">
 
-  #### <Put calendar and time table>
+  #### 4. Put calendar and time table
   <img width="500" alt="스크린샷 2021-06-13 오후 7 49 41" src="https://user-images.githubusercontent.com/70529293/121804278-82f66c80-cc80-11eb-865b-3911d27f0976.png">
 
-  #### <Put new links>
+  #### 5. Put new links
   
   <img width="300" alt="스크린샷 2021-06-13 오후 7 49 57" src="https://user-images.githubusercontent.com/70529293/121804288-8be73e00-cc80-11eb-9305-7877b9fe02cb.png">
 
