@@ -41,3 +41,6 @@ Also, it helps them to test themselves how well they have learned. Lastly, it he
 ### 5. Project Explanation and Demo
   https://youtu.be/qXFvZQPXQA0
   
+###6. Help 
+  Please email me for any questions or comments--> ysehisforever@gmail.com
+  For original template --> https://github.com/learning-zone/website-templates
