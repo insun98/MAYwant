@@ -1,21 +1,39 @@
 # MAYwant
 
-### 1. Project Background
-Memorization is crucial in learning new concepts, for if one cannot remember a concept, one has not really learned it.  Memorization challenges the brain and trains the brain to remember which requires a time of time. However, it is difficult to memorize something
-
-### 2. Project Description
-The project MAYwant which means Memorize all you want, helps users to learn things on daily basis. Users can add the word or a concept they are willing to learn with the appropriate meaning of it. Then, the words added are stored and arranged according to the date the words are added. Also, users may take a test based on the words they have added on the day or through the days. If users need more time to learn, they can view the words they have added until then.
-Insert new things to learn and append the table.
-Test how well you have learned
-Links to the important our college sites
-My calendar and Time Table
-
+### 1. Project 
+The project, MAYwant which means Memorize all you want, helps users to learn things on daily basis. Users can add the word or a concept they are willing to learn with the appropriate meaning of it. 
+1. Add the concepts 
+2. Test how well you have learned
+3. Link to the important our college sites
+4. My calendar and Time Table
+### 2. Usefulness
+Many students face diffulties to new concepts that learned. MAYwant helps the students to add the concepts that they want to learn and arrange them.
+Also, it helps them to test themselves how well they have learned. Lastly, it helps the students to see their schedule and time table.
 
 ### 3. How To Use 
-1. git clone 
-2. node index.js
-3. Use 'IP address:8888' to open the website
+1. git clone <Repository URL>
+2. $cd MAYwant -> $node index.js
+3. Use 'local IP address:8888' to open the website (use the ip address that raspberry pi uses)
 4. Use the website 
 
-### 4. Demo and Project Presentation Video 
+### 4. Contributions
+  - Used the project, https://github.com/learning-zone/website-templates (36-rabbits)
+  
+  1. Changed the logo
+  <img width="237" alt="스크린샷 2021-06-13 오후 7 47 58" src="https://user-images.githubusercontent.com/70529293/121804221-4460b200-cc80-11eb-9bfe-e66c491a18a2.png"><img width="539" alt="스크린샷 2021-06-13 오후 7 48 17" src="https://user-images.githubusercontent.com/70529293/121804235-4fb3dd80-cc80-11eb-8337-944407442d73.png">
 
+
+  2. Put new table and form
+  <img width="1155" alt="스크린샷 2021-06-13 오후 7 48 50" src="https://user-images.githubusercontent.com/70529293/121804255-635f4400-cc80-11eb-813f-dcacc2ea8752.png">
+
+  3. Put test system 
+  <img width="938" alt="스크린샷 2021-06-13 오후 7 49 13" src="https://user-images.githubusercontent.com/70529293/121804263-7114c980-cc80-11eb-8b2c-30209cd801be.png">
+<img width="1033" alt="스크린샷 2021-06-13 오후 7 49 29" src="https://user-images.githubusercontent.com/70529293/121804270-796d0480-cc80-11eb-842b-19e67511cbbd.png">
+
+  4. Put calendar and time table 
+  <img width="1440" alt="스크린샷 2021-06-13 오후 7 49 41" src="https://user-images.githubusercontent.com/70529293/121804278-82f66c80-cc80-11eb-865b-3911d27f0976.png">
+
+  5. Put new links 
+  <img width="229" alt="스크린샷 2021-06-13 오후 7 49 57" src="https://user-images.githubusercontent.com/70529293/121804288-8be73e00-cc80-11eb-9305-7877b9fe02cb.png">
+### 4. Project Explanation and Demo
+  
